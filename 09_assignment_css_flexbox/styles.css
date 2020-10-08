@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.blogpost { 
+    width: 300px; 
+    border: 1px solid black; 
+}
+
+.blogpost-1 {
+    align-self: flex-end;
+}
+
+.blogpost-2 {
+    flex-grow: 2;
+}
